@@ -1,5 +1,5 @@
-# digital-electronics-1
+## Windows Git Bash or Linux:
 $ git clone https://github.com/your-github-account/digital-electronics-1
 $ cd digital-electronics-1/
 $ ls
-.gitignore  README.md
+.gitignore  LICENSE  README.md
