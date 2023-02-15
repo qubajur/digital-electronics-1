@@ -12,9 +12,9 @@
 ```vhdl
 architecture dataflow of gates is
 begin
-    f_orig_o <= (not(b_i) and a_i) or (c_i and not(b_i or not(a_i)));
-    f_nand_o <= (not(b_i) and a_i) and (c_i nand (not(b_i) nand a_i));
-    f_nor_o  <= (not(a_i) or b_i) nor (not(c_i) nor (b_i nor not(a_i)));
+  f_orig_o <= (not(b_i) and a_i) or (c_i and not(b_i or not(a_i)));
+  f_nand_o <= not(not(not(b_i) and a_i) and not(c_i and (not(b_i) and a_i)));
+  f_nor_o  <= (not(b_i or not(a_i))) or not(not(c_i) or (b_i or not(a_i)));
 end architecture dataflow;
 ```
 
