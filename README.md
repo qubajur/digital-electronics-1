@@ -37,6 +37,7 @@ end architecture dataflow;
 
  ![Snímek obrazovky 2023-02-15 191319](https://user-images.githubusercontent.com/124879295/219116909-ac0aefc0-c417-4b49-b3f5-ae7d77095c2d.jpg)
 
+Použil jsem první distrubuční zákon. Nand je levá strana a pravá je nor.
 
 2. Link to your public EDA Playground example:
 
