@@ -23,13 +23,13 @@
    Last two digits of my student ID: **xxxx??**
 
 ```vhdl
-   p_stimulus : process
+       p_stimulus : process
     begin
         -- Report a note at the beginning of stimulus process
         report "Stimulus process started";
 
         -- First test case ...
-        --63 => last two digits of my id - a = 0110, b = 0011
+        -- 63 => last two digits of my id - a = 0110, b = 0011
         s_b <= "0011"; s_a <= "0110"; wait for 100 ns;
         -- ... and its expected outputs
         assert ((s_B_greater_A = '0') and
@@ -51,7 +51,7 @@
                 (s_B_less_A    = '1'))
         report "Input combination b=0000, a=1111 FAILED" severity error;
         s_b <= "1111"; s_a <= "0000"; wait for 100 ns;
-        assert ((s_B_greater_A = '0') and
+        assert ((s_B_greater_A = '1') and
                 (s_B_equals_A  = '0') and
                 (s_B_less_A    = '0'))
         report "Input combination b=1111, a=0000 FAILED" severity error;
