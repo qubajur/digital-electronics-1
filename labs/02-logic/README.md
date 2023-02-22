@@ -6,8 +6,7 @@
 
    Greater than:
 
-![bvetsineza](https://user-images.githubusercontent.com/124879589/219622793-6e2b4bf1-d5f3-47f0-8240-03b8ce78fff8.png)
-
+![Snímek obrazovky 2023-02-22 134823](https://user-images.githubusercontent.com/124879295/220625160-37be1b16-d75c-45ac-a32c-d34060030b5c.jpg)
 
    Less than:
 
