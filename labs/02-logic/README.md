@@ -6,7 +6,7 @@
 
    Greater than:
 
-![Snímek obrazovky 2023-02-22 134823](https://user-images.githubusercontent.com/124879295/220625160-37be1b16-d75c-45ac-a32c-d34060030b5c.jpg)
+(https://user-images.githubusercontent.com/124879295/220625160-37be1b16-d75c-45ac-a32c-d34060030b5c.jpg)
 
    Less than:
 
