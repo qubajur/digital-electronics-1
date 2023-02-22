@@ -29,15 +29,15 @@
         report "Stimulus process started";
 
         -- First test case ...
-        --35 => last two digits of my id - a = 0011, b = 0101
-        s_b <= "0101"; s_a <= "0011"; wait for 100 ns;
+        --63 => last two digits of my id - a = 0110, b = 0011
+        s_b <= "0011"; s_a <= "0110"; wait for 100 ns;
         -- ... and its expected outputs
-        assert ((s_B_greater_A = '1') and
+        assert ((s_B_greater_A = '0') and
                 (s_B_equals_A  = '0') and
-                (s_B_less_A    = '0'))
+                (s_B_less_A    = '1'))
         -- If true, then do not report anything
         -- If false, then report the following error
-        report "Input combination b=0, a=0 FAILED" severity error;
+        report "Input combination b=0011, a=0110 FAILED" severity error;
 
 
         s_b <= "1111"; s_a <= "1111"; wait for 100 ns;
