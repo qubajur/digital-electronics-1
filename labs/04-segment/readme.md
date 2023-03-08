@@ -46,3 +46,5 @@ with SW select
         '0' when others;
 ```
 3. Screenshot with simulated time waveforms for LED(7:4). Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
+
+![Snímek obrazovky 2023-03-08 000041 (2)](https://user-images.githubusercontent.com/124879295/223857551-755654b5-089a-4622-92db-bd01d2d10696.jpg)
