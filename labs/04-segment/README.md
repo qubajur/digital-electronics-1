@@ -1,4 +1,4 @@
-# Lab 4: Michal Papaj
+# Lab 4: Jakub Jureček
 
 ### LED(7:4) indicators
 
