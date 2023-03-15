@@ -13,8 +13,7 @@
 ```vhdl
 architecture behavioral of t_ff_rst is 
    signal s_q : std_logic;
-begin
-
+   begin
    p_t_ff_rst : process (clk)
       begin
          if rising_edge (clk) then
