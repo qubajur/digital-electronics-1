@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 30 11:16:24 2023
+# Process ID: 1972
+# Current directory: C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/08-traffic_lights/traffic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4316 C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\08-traffic_lights\traffic\traffic.xpr
+# Log file: C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/08-traffic_lights/traffic/vivado.log
+# Journal file: C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/08-traffic_lights/traffic\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/08-traffic_lights/traffic/traffic.xpr
