@@ -19,3 +19,423 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/appz/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_4digits'
+ERROR: [VRFC 10-2987] 'clock_enable' is not compiled in library 'xil_defaultlib' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:81]
+ERROR: [VRFC 10-2987] 'cnt_up_down' is not compiled in library 'xil_defaultlib' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:99]
+ERROR: [VRFC 10-2987] 'hex_7seg' is not compiled in library 'xil_defaultlib' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:115]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:66]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close [ open C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd w ]
+add_files C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd w ]
+add_files C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_enable'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_up_down'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_4digits'
+ERROR: [VRFC 10-2987] 'hex_7seg' is not compiled in library 'xil_defaultlib' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:115]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:66]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close [ open C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/Top.vhd w ]
+add_files C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/Top.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/Top.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/Top.vhd
+close [ open C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7seg.vhd w ]
+add_files C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7seg.vhd
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_enable'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_up_down'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_4digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_4digits'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab -wto a65277ae0c814c6f9e78b2c864d78009 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/appz/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto a65277ae0c814c6f9e78b2c864d78009 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.driver_7seg_4digits [driver_7seg_4digits_default]
+Compiling architecture testbench of entity xil_defaultlib.tb_driver_7seg_4digits
+Built simulation snapshot tb_driver_7seg_4digits_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xsim.dir/tb_driver_7seg_4digits_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xsim.dir/tb_driver_7seg_4digits_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Mar 23 11:52:11 2023. For additional details about this file, please refer to the WebTalk help file at C:/appz/Xilinx/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Mar 23 11:52:11 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 999.379 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_driver_7seg_4digits_behav -key {Behavioral:sim_1:Functional:tb_driver_7seg_4digits} -tclbatch {tb_driver_7seg_4digits.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_driver_7seg_4digits.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd
+Note: Stimulus process finished
+Time: 0 ps  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_driver_7seg_4digits_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 999.379 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a50ticsg324-1L
+Top: driver_7seg_4digits
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1317.953 ; gain = 246.555
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'driver_7seg_4digits' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'clock_enable' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd:41]
+	Parameter g_max bound to: 400000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_enable' (1#1) [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'cnt_up_down' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd:36]
+	Parameter g_CNT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'cnt_up_down' (2#1) [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'hex_7seg' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7seg.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'hex_7seg' (3#1) [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7seg.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'driver_7seg_4digits' (4#1) [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:66]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1393.039 ; gain = 321.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1393.039 ; gain = 321.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1393.039 ; gain = 321.641
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1393.039 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1461.008 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1568.605 ; gain = 497.207
+11 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1568.605 ; gain = 569.227
+close [ open C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/top.vhd w ]
+add_files C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/top.vhd
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\clock_enable.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\hex_7seg.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\cnt_up_down.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\Top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\driver_7seg_4digits.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sim_1\new\tb_driver_7seg_4digits.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\clock_enable.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\hex_7seg.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\cnt_up_down.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\Top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\driver_7seg_4digits.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sim_1\new\tb_driver_7seg_4digits.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\clock_enable.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\hex_7seg.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\cnt_up_down.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\Top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sources_1\new\driver_7seg_4digits.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\240163\Documents\digital-electronics-1\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.srcs\sim_1\new\tb_driver_7seg_4digits.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1608.887 ; gain = 40.281
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/top.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'driver_7seg_4digits' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'clock_enable' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd:41]
+	Parameter g_max bound to: 400000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_enable' (1#1) [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'cnt_up_down' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd:36]
+	Parameter g_CNT_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'cnt_up_down' (2#1) [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'hex_7seg' [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7seg.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'hex_7seg' (3#1) [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7seg.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'driver_7seg_4digits' (4#1) [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'top' (5#1) [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/top.vhd:52]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1661.793 ; gain = 93.188
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1685.645 ; gain = 117.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1685.645 ; gain = 117.039
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1685.645 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1685.645 ; gain = 117.039
+file mkdir C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/constrs_1
+file mkdir C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/constrs_1/new
+close [ open C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/constrs_1/new/nexys-a7-50t.xdc w ]
+add_files -fileset constrs_1 C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/constrs_1/new/nexys-a7-50t.xdc
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/constrs_1/new/nexys-a7-50t.xdc]
+Finished Parsing XDC File [C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.srcs/constrs_1/new/nexys-a7-50t.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 1759.203 ; gain = 51.875
+launch_runs impl_1 -to_step write_bitstream
+[Thu Mar 23 12:00:58 2023] Launched synth_1...
+Run output will be captured here: C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.runs/synth_1/runme.log
+[Thu Mar 23 12:00:58 2023] Launched impl_1...
+Run output will be captured here: C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-22:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1783.375 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AD2D81A
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292AD2D81A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a50t (JTAG device index = 0) is not programmed (DONE status = 0).
+close_hw_manager
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Thu Mar 23 12:04:06 2023] Launched impl_1...
+Run output will be captured here: C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-22:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 3342.773 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AD2D81A
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a50t (JTAG device index = 0) is not programmed (DONE status = 0).
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a50t (JTAG device index = 0) is not programmed (DONE status = 0).
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-22:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 3357.172 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AD2D81A
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a50t (JTAG device index = 0) is not programmed (DONE status = 0).
+close_hw_manager
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Thu Mar 23 12:11:59 2023] Launched impl_1...
+Run output will be captured here: C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.runs/impl_1/runme.log
+open_hw_manager
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-22:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 3417.500 ; gain = 0.000
+connect_hw_server -url localhost:3121 -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210292AD2D81A]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210292AD2D81A]
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AD2D81A
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a50t (JTAG device index = 0) is not programmed (DONE status = 0).
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a50t (JTAG device index = 0) is not programmed (DONE status = 0).
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a50t (JTAG device index = 0) is not programmed (DONE status = 0).
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a50t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/Users/240163/Documents/digital-electronics-1/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.runs/impl_1/top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a50t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 3436.938 ; gain = 5.188
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 23 12:30:17 2023...
